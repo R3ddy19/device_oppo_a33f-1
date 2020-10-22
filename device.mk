@@ -266,7 +266,7 @@ PRODUCT_PACKAGES += \
 
 # Doze
 PRODUCT_PACKAGES += \
-    LenovoDoze
+    OppoDoze
 
 # Keystore
 PRODUCT_PACKAGES += \
@@ -431,7 +431,7 @@ PRODUCT_PACKAGES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-service.a6000
+    android.hardware.light@2.0-service.a33f
 
 # Properties
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -637,7 +637,7 @@ PRODUCT_PACKAGES += \
 
 # Touch
 PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.a6010
+    vendor.lineage.touch@1.0-service.a33f
 
 # Disable traced and iorapd
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -665,4 +665,4 @@ PRODUCT_COPY_FILES += \
 # Inherit common Android Go defaults.
 $(call inherit-product, build/make/target/product/go_defaults.mk)
 
-$(call inherit-product, vendor/lenovo/a6000/a6000-vendor.mk)
+$(call inherit-product, vendor/oppo/a33f/a33f-vendor.mk)
