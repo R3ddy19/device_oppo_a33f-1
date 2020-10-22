@@ -14,9 +14,9 @@
  * limitations under the License.
  */
  
-//Author := dev_harsh1998
+//Author := Xvae27
  
-#define LOG_TAG "LightService-a6000"
+#define LOG_TAG "LightService-a33f"
 #include <log/log.h>
 #include "Light.h"
 #include <fstream>
